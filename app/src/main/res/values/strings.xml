@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CakeDay</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_fullscreen2">FullscreenActivity2</string>
+
+    <string name="title_activity_fullscreen3">FullscreenActivity3</string>
+
+    <string name="title_activity_fullscreen4">FullscreenActivity4</string>
+
+    <string name="title_activity_fullscreen5">FullscreenActivity5</string>
+
+    <string name="title_activity_fullscreen6">FullscreenActivity6</string>
+
+    <string name="title_activity_fullscreen7">FullscreenActivity7</string>
+
+    <string name="title_activity_fullscreen8">FullscreenActivity8</string>
+
+    <string name="title_activity_fullscreen9">FullscreenActivity9</string>
+</resources>
