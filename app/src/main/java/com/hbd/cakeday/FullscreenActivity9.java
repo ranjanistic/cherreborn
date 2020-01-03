@@ -14,6 +14,7 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -115,6 +116,17 @@ public class FullscreenActivity9 extends AppCompatActivity {
                 overridePendingTransition(R.anim.top_out,R.anim.bottom_in);
             }
         });
+        Animation shake, moveup;
+        shake = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.balloon_shake);
+        moveup = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.balloon_rising);
+        ImageView balloonView = findViewById(R.id.balloon);
+        ImageView balloonView1 = findViewById(R.id.balloon1);
+        ImageView balloonView2 = findViewById(R.id.balloon2);
+        ImageView balloonView3 = findViewById(R.id.balloon3);
+        balloonView.startAnimation(shake);
+        balloonView1.startAnimation(shake);
+        balloonView2.startAnimation(shake);
+        balloonView3.startAnimation(shake);
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
