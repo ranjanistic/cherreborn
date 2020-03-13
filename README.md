@@ -8,3 +8,6 @@
 ## Contribution Guide
 - New ideas to innovate cakeday wishing welcomed
 - Flexible and smooth flow in-app responsiveness
+
+## Not to be noted
+Some local configuration files are also present in the repo, though this won't be problematic, will be removed later.
