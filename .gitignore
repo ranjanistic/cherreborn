@@ -17,3 +17,5 @@ app/release/output.json
 app/release/output.json
 app/build.gradle
 app/build.gradle
+.idea
+app/release
